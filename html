@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>"project6.htm"</title>
+</head>
+<script>
+</script>
+
+<body>
+  <h2>JavaScrpit Objects Projects</h2>
+  <table>
+    <tr>
+      <th>Show:</th>
+      <td><input type="checkbox" id="objchk" onclick="showHide()" name "Objects" value="yes" checked>Objects</td>
+      <td><input type="checkbox" id="detchk" onclick="showHide()" checked>Details</td>
+      <td><input type="checkbox" id="subchk" onclick="showHide()" checked>Submission</td>
+    </tr>
+  </table>
+  <div id="objectives" onmouseover="divFontSize()" onmouseout="divFontSizeReduction()">
+    <h3>Objectives</h3>
+    <p>
+This project involves the use of event-driven behaviors written as JavaScript functions that will control the way in which the page is formatted and displayed.
+    </p>
+  </div>
+  <div id="details" >
+    <h3>Details</h3>
+    <ol>
+
+      <li>Use a plain text editor such as the Windows Notepad program to create a web page named "project6.htm" that displays as closely matching the illustration above as possible. You must not use Word, Wordpad, Dreamweaver, or any other web authoring software.</li>
+      <li>The heading at the top of the page should be a level 2 heading. The other three headings should be level 3.</li>
+
+      <li>Use embedded CSS rules to center both levels of heading and all other style definitions necessary to format the page. Assign a background color of #cccccc for the page.</li>
+      <li>The content under the headings OBJECTIVES, DETAILS, and SUBMISSION should be created with division (div) elements that also include the headers.</li>
+      <li>Each division must be given a unique id attribute to identify it to JavaScript functions that will affect it. Name the division elements (in order of appearance): objectives, details, and submission.</li>
+      <li>One JavaScript function named "divFontSize" must be written to cause a "rollover behavior" for any of the three divisions, such that when a user moves a mouse over them they enlarge to a 25% larger font size and then return to their original size when the mouse moves away from them. (It does not matter if the header changes size or not.) The function must receive two passed parameters that indicate (1) the id of the division to be altered, and (2) the font size to be applied to the division.</li>
+
+      <li>Each division must have two "event handler" attributes that will call the divFontSize function and pass the related parameters to it when the mouse: (1) hovers over the division, and (2) moves away from it.</li>
+      <li>The checkboxes at the top of the page should be positioned within borderless cells in a one row table. The enclosing table element should be formatted with a "groove" style border. Each checkbox must be nested within a label element to ensure that click events on the label will also toggle each checkbox.</li>
+      <li>A second JavaScript function named "showHide" must be written in the head section that can toggle that division's display on or off, based on the state of the related checkbox. This function also must receive two passed parameters that indicate (1) which checkbox is triggering the event, and (2) the id of the division to be altered. All three divisions must display by default when the page loads.</li>
+      <li>Each checkbox must be given a unique id attribute to identify it to the showHide function. Name the input checkbox elements (in order of appearance): objchk, detchk, and subchk.</li>
+
+      <li>Each checkbox also must have an "event handler" attribute that will call the showHide function and pass the related two parameters to it.</li>
+      <li>For more details, see the assignment web page.</li>
+    </ol>
+
+  </div>
+  <div id="submission">
+    <h3>Submission</h3>
+    <p>Your script file(web page) should be submitted via the "Project 6" drop box under the "Content" area of the Blackboard course shell for this course. After completing your web page, login to the Blackboard Server and click on the "Content" tab on the left side of the window. Scroll down and select "Project 6". Type any message you like in the Comments text area. Then use the "Browse My Computer" button to attach your script file to the submission message and press the Submit button.</p>
+  </div>
+  <hr />
+  <table>
+    <tr>
+      <td style="text-align:left;">
+      Last revised 6/16/2016
+      </td>
+      <td style="text-align:right">
+        Email:<a href="mailto:Lukewestcott@wmtek.com?Subject=Hello%20again" target="_top"> Lukewestcott@wmtek.com</a>
+      </td>
+     </tr>
