@@ -1,0 +1,19 @@
+body {
+  background-color: #cccccc;
+ font-size: 1em;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  border-style: groove;
+  text-align: center;
+  width:100%;
+}
+
+h3 {
+  text-align: center;
+}
